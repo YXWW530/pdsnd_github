@@ -5,7 +5,7 @@
 Explore US Bikeshare Data
 
 ### Description
-Describe what your project is about and what it does
+Use Python to explore data related to bike share systems for three major cities in the United States—Chicago, New York City, and Washington. Script will allow user to filter for dataset to analyze and calculate statistics.
 
 ### Files used
 Include the files used
