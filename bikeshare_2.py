@@ -25,7 +25,12 @@ def get_filters():
             city = input('Please input the right city:').lower()
 
     # get user input for month (all, january, february, ... , june)
-
+month = input('Please input the month from Jan. to Jun. or "all" :').lower().capitalize()
+while True:
+    if month in month_list:
+        break
+    else:
+        month = input('Please input the right month:').lower().capitalize()
 
     # get user input for day of week (all, monday, tuesday, ... sunday)
 
