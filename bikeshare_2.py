@@ -33,7 +33,14 @@ while True:
         month = input('Please input the right month:').lower().capitalize()
 
     # get user input for day of week (all, monday, tuesday, ... sunday)
-
+day = input('Please input the day of week  or "all" :').lower().capitalize()
+while True:
+    if day in day_list:
+        break
+    else:
+        day = input('Please input the right day of week  or "all" :').lower().capitalize()
+print('-'*40)
+return city, month, day
 
     print('-'*40)
     return city, month, day
